@@ -8,4 +8,4 @@ function getAverage(scores) {
       return average
   }
 
-// console.log(getAverage([65, 88, 73, 97, 85, 81, 92, 78]))
+// console.log(getAverage([65, 88, 73, 97, 85, 81, 92, 78])) Test scores worked!
