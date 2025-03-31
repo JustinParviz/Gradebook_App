@@ -8,9 +8,11 @@
 //         sum += scores[i];
 //     }
 //     let average = sum / scores.length;
-    
+
 //     return average
 // }
+
+// - Created shortened version of the getAverage function, as seen below:
 
 function getAverage(scores) {
     let sum = 0
@@ -27,21 +29,22 @@ function getAverage(scores) {
 
 function getGrade(score) {
     if (score === 100) {
-      return `Your score is ${score}, your Grade is A++`;
+        return "A++";
     } else if (score >= 90) {
-      return `Your score is ${score}, your Grade is A`;
+        return "A";
     } else if (score >= 80) {
-      return `Your score is ${score}, your Grade is B`;
+        return "B";
     } else if (score >= 70) {
-      return `Your score is ${score}, your Grade is C`;
+        return "C";
     } else if (score >= 60) {
-      return `Your score is ${score}, your Grade is D`;
+        return "D";
     } else {
-      return `Your score is ${score}, your Grade is F`;
+        return "F";
     }
 }
 
 // console.log(getGrade(81));     // Succefully received the correct Grade for any score!
+
 
 
 
